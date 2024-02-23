@@ -21583,9 +21583,6 @@ a.pswp__share--download:hover {
   
   --animation-custom_in-translate_y: -50% !important;
 }
-.u-animation-fixed {
-  position: fixed;
-}
 .u-animation-sticky {
   position: sticky;
   top: 0;
@@ -42591,7 +42588,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -42620,10 +42619,6 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -2px;
     margin-bottom: 16px;
   }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
@@ -42632,17 +42627,13 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -2px;
+    margin-top: 20px;
+    margin-bottom: 22px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-text-2 {
     margin-top: -48px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: 20px;
-    margin-bottom: 22px;
   }
 }
 @media (max-width: 575px) {
