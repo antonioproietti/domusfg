@@ -585,7 +585,7 @@
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 405px;
   }
 
   .u-section-3 .u-gallery-1 {
@@ -619,6 +619,7 @@
   }
 
   .u-section-3 .u-layout-cell-1 {
+    min-height: NaNpx;
     order: 1;
   }
 
@@ -670,10 +671,6 @@
     margin-right: initial;
     margin-left: initial;
     width: auto;
-  }
-
-  .u-section-3 .u-layout-cell-1 {
-    min-height: NaNpx;
   }
 
   .u-section-3 .u-container-layout-1 {
